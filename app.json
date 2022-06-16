@@ -1,0 +1,11 @@
+{
+    "name": "pupflare",
+    "description": "A webpage proxy that request through Chromium (puppeteer) - can be used to bypass Cloudflare anti bot / anti ddos on any application (like curl)",
+    "repository": "https://github.com/elmirarokni/pupflare",
+    "stack": "container",
+    "buildpacks": [
+        {   
+            "url": "heroku/python"  
+        }
+      ]
+  }
